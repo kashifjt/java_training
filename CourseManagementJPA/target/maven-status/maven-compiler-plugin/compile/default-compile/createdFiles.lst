@@ -1,0 +1,9 @@
+packt\book\jee\eclipse\ch4\jpa\bean\Teacher.class
+packt\book\jee\eclipse\ch4\jpa\service\TeacherService.class
+packt\book\jee\eclipse\ch4\jpa\bean\Course.class
+packt\book\jee\eclipse\ch4\jpa\service_bean\CourseServiceBean.class
+packt\book\jee\eclipse\ch4\jpa\service\CourseService.class
+packt\book\jee\eclipse\ch4\jpa\service\StudentService.class
+packt\book\jee\eclipse\ch4\jpa\bean\Person.class
+packt\book\jee\eclipse\ch4\jpa\bean\Student.class
+packt\book\jee\eclipse\ch4\jpa\service_bean\EntityManagerFactoryBean.class

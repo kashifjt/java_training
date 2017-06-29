@@ -1,0 +1,27 @@
+package com.tutorialspoint.stateful;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ejb.LocalBean;
+import javax.ejb.Stateful;
+
+/**
+ * Session Bean implementation class LibraryStatefulSessionBean
+ */
+@Stateful
+public class LibraryStatefulSessionBean implements LibraryStatefulSessionBeanRemote {
+	List<String> bookShelf;
+
+	public LibraryStatefulSessionBean() {
+		bookShelf = new ArrayList<String>();
+	}
+
+	public void addBook(String bookName) {
+		bookShelf.add(bookName);
+	}
+
+	public List<String> getBooks() {
+		return bookShelf;
+	}
+}
